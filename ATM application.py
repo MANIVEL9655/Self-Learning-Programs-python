@@ -13,20 +13,21 @@ class Bank:
             self.withdraw()
         elif getOption !=1 or getOption !=2:
             print("Thanks")
-        return
+            return
         print("Your closing balance is :", self.closingBal)
         print("Do you want to continue: ")
-    a= input()
+        a= input()
 
-    if a=="Y" or a== "y":
-        self.display()
-    else:
-        print("Thanks fro visiting our Bank")
+        if a=="Y" or a== "y":
+            self.display()
+        else:
+            print("Thanks fro visiting our Bank")
 
     def deposit(self):
         depositAmnt = int(input("Enter Your deposit Amount"))
         self.closingBal = self.closingBal+depositAmnt
         return self.closingBal
+
     def withdraw(self):
         withdrawAmnt = int(input("Enter your withdraw Amount"))
         if self.closingBal>= withdrawAmnt:
@@ -34,7 +35,7 @@ class Bank:
             print("After withdraw your balance amount is :", self.closingBal)
         else:
             print("No sufficient Balance")
-        return self.closingBal
+            1return self.closingBal
 
 bankObj = Bank()
 bankObj.display()
