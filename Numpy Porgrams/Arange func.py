@@ -1,0 +1,10 @@
+import numpy as np
+a = np.arange(6).reshape([6])
+print(a)
+print("ORIGINAL ARRAY")
+print(a)
+print("DIM", a.ndim)
+print("Length is arrays number of elements", len(a))
+print("SHAPE",a.shape)
+print("==="*20)
+print(a[2])
