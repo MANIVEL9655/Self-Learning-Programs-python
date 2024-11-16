@@ -1,0 +1,23 @@
+import numpy as np
+from pywin.mfc.object import Object
+
+a=np.array([[1,2],[2,4]], dtype=object, copy=True,order="A", subok=False)
+print(a)
+print("="*56)
+print(type(a))
+print("="*56)
+print("size",a.size)
+print("="*56)
+print(a.itemsize)
+print("="*56)
+print(a.item(3))
+print("="*56)
+print(a.nbytes)
+print("="*56)
+print(a.dtype)
+print("="*56)
+print(a.ndim)
+print("="*56)
+print(a.data)
+print("="*56)
+print(a.flags)
