@@ -2,7 +2,7 @@ import numpy as np
 
 a=[[10,80],
    [100,800],
-   [1,8]]
+   [1,8],[12,3]]
 
 print(np.ndim(a))
 print(np.shape(a))

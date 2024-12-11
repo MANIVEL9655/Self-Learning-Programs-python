@@ -1,7 +1,7 @@
 import numpy as np
 from pywin.mfc.object import Object
 
-a=np.array([[1,2],[2,4]], dtype=object, copy=True,order="A", subok=False)
+a=np.array([[1,2],[2,4],[1,2]], dtype=object, copy=True,order="A", subok=False)
 print(a)
 print("="*56)
 print(type(a))
