@@ -5,3 +5,6 @@ print(type(a))
 b=np.asarray(a)
 print(b*5)
 print(type(b))
+
+print(np.log(b))
+print(np.log(a))
