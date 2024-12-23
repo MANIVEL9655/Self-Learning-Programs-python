@@ -8,3 +8,12 @@ print(type(b))
 
 print(np.log(b))
 print(np.log(a))
+
+if type(a)==type(b):
+    print("Both are numpy array")
+else:
+    print("No there are not")
+
+print(np.asarray(a) is a)
+
+print(a is b)
