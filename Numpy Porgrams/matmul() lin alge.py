@@ -8,6 +8,5 @@ print(b)
 print("====================")
 print(a*b)
 print("==================")
-
 c=np.matmul(a,b)
 print(c)
