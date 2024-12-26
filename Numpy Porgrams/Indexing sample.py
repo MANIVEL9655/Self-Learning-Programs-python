@@ -4,4 +4,4 @@ for i in enumerate(a):
     print(i)
 print("====================")
 print(a[[3,4,0]])
-print(a[[-1,2,3]])
+print(a[[-1,2,3]]/
