@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([[0.0,0.0,0.0],[10.0,20.0,30.0],[40.0,50.0,60.0],[0.0,0.0,50.0]])
+print(a)
+print("$"*30)
+b=np.array([[1.1,2.2,3.3]])
+print(b)
+print("$"*30)
+c=(a*b)
+print(c)
+print("$"*30)
