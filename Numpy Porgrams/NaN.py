@@ -6,4 +6,4 @@ print(type(a))
 print("========"*5)
 print(a[~np.isnan(a)])
 print("===================")
-print([~np.isnan(a)])
+print([~np.isnan(a)]
