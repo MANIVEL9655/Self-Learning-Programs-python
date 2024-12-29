@@ -6,6 +6,7 @@ b=np.array([5,6,7],dtype=int)
 print(np.shape(b))
 print("==============")
 print("Vector",a[:])
+
 print("b's Vector",b[:])
 print("==========================")
 a1=(a[:,np.newaxis])
