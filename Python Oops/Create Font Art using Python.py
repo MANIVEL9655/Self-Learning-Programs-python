@@ -1,5 +1,8 @@
 # pip install pyfiglet
 
 import pyfiglet
-font = pyfiglet.figlet_format('Coding Hubs')
-print(font)
+
+for i in range(20):
+    text = input("enter a text")
+    font = (pyfiglet.figlet_format(text))
+    print(font)
