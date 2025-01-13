@@ -35,7 +35,7 @@ class Bank:
             print("After withdraw your balance amount is :", self.closingBal)
         else:
             print("No sufficient Balance")
-            1return self.closingBal
+            return self.closingBal
 
 bankObj = Bank()
 bankObj.display()
