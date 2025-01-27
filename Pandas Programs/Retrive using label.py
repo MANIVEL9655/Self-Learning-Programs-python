@@ -6,3 +6,4 @@ print(s['a'])
 print(s['b'])
 idx=['a','b','c']
 print(s[idx])
+print(s['f'])
