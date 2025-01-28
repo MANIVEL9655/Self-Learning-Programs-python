@@ -4,4 +4,4 @@ df=pd.DataFrame(data=data,columns=["Name","Age"],dtype=str)
 print(df)
 print(df.shape)
 print(df.ndim)
-print(df.dtypes)
+print(df.dtypes)~
