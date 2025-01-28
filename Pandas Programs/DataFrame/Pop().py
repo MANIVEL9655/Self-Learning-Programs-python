@@ -13,5 +13,3 @@ df['Total']=df['One']+ df['Three']
 print(df)
 print("===============================")
 print(df.pop("One"))
-print("========================")
-print(df)
