@@ -7,7 +7,7 @@ idx = [200,300,400,500,600,700]
 bankData =  np.array(istbankbal)
 print(bankData)
 print('=========================================')
-s=pd.Series(data=bankData,copy=True,index=idx)
+s=pd.Series(data=bankData,copy=True,index=idx,name="The Data")
 print(s)
 print("==========================================")
 print("Adding index integer new")
