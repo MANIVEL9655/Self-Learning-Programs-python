@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from nest_asyncio import apply
 
 
 def adder(ele1,ele2):
