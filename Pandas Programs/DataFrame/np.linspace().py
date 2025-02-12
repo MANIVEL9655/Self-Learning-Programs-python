@@ -1,0 +1,17 @@
+import pandas as pd
+import numpy as np
+linspace=np.linspace(start=2.0,stop=20.0,num=10)
+print(linspace)
+print("============================")
+linspace=np.linspace(start=2.0,stop=20.0,num=10,retstep=True)
+print(linspace)
+print("============================")
+linspace=np.linspace(start=2.0,stop=20.0,num=10,retstep=False)
+print(linspace)
+print("============================")
+linspace=np.linspace(start=2.0,stop=20.0,num=10,retstep=False,endpoint=False)
+print(linspace)
+print("============================")
+linspace=np.linspace(start=2.0,stop=20.0,num=10,retstep=False,endpoint=True)
+print(linspace)
+print("============================")
