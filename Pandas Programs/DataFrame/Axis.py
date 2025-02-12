@@ -6,5 +6,6 @@ d={'Name':pd.Series(['Tom','Lily',"King",'Michel','Roshan','Kannan','Karukuty',"
 df=pd.DataFrame(d)
 print(df)
 print("3333333333333333333333333333333333333333333")
-print(df.head(3))
+print(df.sum(axis=0))
 print("3333333333333333333333333333333333333333333")
+print(df.sum(axis=1))
