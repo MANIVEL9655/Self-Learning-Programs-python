@@ -1,0 +1,33 @@
+import numpy as np
+import pandas as pd
+d={'Name':pd.Series([]),
+   'Age':pd.Series([12,34,56,78,90,15,45,66,77,33,18]),
+   'Ratings':pd.Series([12,34,55,3,4,2,5,6,0,45,32,1])}
+df=pd.DataFrame(d)
+print("=======================")
+print(df.count())
+print("=======================")
+print(df.sum())
+print("=======================")
+print(df.mean())
+print("=======================")
+print(df.median())
+print("=======================")
+print(df.std())
+print("=======================")
+print(df.max())
+print("=======================")
+print(df.min())
+print("=======================")
+print(df.cumsum())
+print("=======================")
+print(df.cummax())
+print("=======================")
+print(df.cumprod())
+print("=======================")
+print(df.cummin())
+print("=======================")
+print(df.abs())
+print("=======================")
+print(df)
+print("=======================")
