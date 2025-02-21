@@ -12,8 +12,6 @@ print("======================")
 x2=np.linspace(start=0, stop=10,endpoint=False,num=8)
 print(x2)
 print("==============================")
-# plt.plot(x1,y,'x')
-# plt.show()
-
+# plt.plot(x1,y,'x
 plt.plot(x2,y,'y')
 plt.show()
