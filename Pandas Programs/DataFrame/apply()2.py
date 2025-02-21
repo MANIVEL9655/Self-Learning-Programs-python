@@ -9,3 +9,4 @@ print(df)
 print("*"*50)
 print(df.apply(adder,args=(100,200)))
 print(type(df["col1"]))
+#sfjsgmb
