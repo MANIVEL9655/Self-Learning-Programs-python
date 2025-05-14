@@ -14,7 +14,7 @@ class Bank:
         elif getOption !=1 or getOption !=2:
             print("Thanks")
             return
-        print("Your closing balance is :", self.closingBal
+        print("Your closing balance is :", self.closingBal)
         print("Do you want to continue: ")
         a= input()
 
