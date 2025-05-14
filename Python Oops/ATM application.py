@@ -17,7 +17,7 @@ class Bank:
         print("Your closing balance is :", self.closingBal)
         print("Do you want to continue: ")
         a= input()
-xcx
+xc
         if a=="Y" or a== "y":
             self.display()
         else:
