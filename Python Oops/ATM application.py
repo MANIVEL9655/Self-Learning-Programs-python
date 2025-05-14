@@ -9,7 +9,7 @@ class Bank:
 
         if getOption == "1":
             self.deposit()
-        elif getOption == "2"
+        elif getOption == "2":
             self.withdraw()
         elif getOption !=1 or getOption !=2:
             print("Thanks")
