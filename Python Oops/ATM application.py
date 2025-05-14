@@ -13,7 +13,7 @@ class Bank:
             self.withdraw()
         elif getOption !=1 or getOption !=2:
             print("Thanks")
-            return
+            retur
         print("Your closing balance is :", self.closingBal)
         print("Do you want to continue: ")
         a= input()
